@@ -21,10 +21,10 @@ AMQP Client implementing the 0-8 spec.
 #
 # Pull in the public items from the various sub-modules
 #
-from basic_message import *
-from channel import *
-from connection import *
-from exceptions import *
+from .basic_message import *
+from .channel import *
+from .connection import *
+from .exceptions import *
 
 __all__ =  [
             'Connection',
